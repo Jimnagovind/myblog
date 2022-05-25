@@ -331,3 +331,8 @@ a:focus {
     list-style-position: inside;
   }
 }
+
+button
+{
+  padding: 5px 22px;
+}

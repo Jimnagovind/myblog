@@ -27,18 +27,26 @@ const Layout = ({ location, title, children }) => {
       <main>{children}</main>
 
       
-    <h1>Contact</h1>
+      <p><b><u>Contact Form</u></b></p>
 
     <form name="Contact Form" method="POST" data-netlify="true">
       <input type="hidden" name="form-name" value="Contact Form" />
+
       <div>
-        <label>Your Email:</label>
+        <label>Your Name:</label><br></br>
+        <input type="text" name="name" />
+      </div>
+      <br></br>
+      <div>
+        <label>Your Email:</label><br></br>
         <input type="email" name="email" />
       </div>
+      <br></br>
       <div>
-        <label>Message:</label>
-        <textarea name="message" />
+        <label>Message:</label><br></br>
+        <textarea name="message" rows="5" cols="30" />
       </div>
+      <br></br>
       <button type="submit">Send</button>
     </form>
   
