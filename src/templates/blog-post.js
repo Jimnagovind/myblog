@@ -31,6 +31,7 @@ const BlogPostTemplate = ({ data, location }) => {
           itemProp="articleBody"
         />
          <Comments issueTerm={post.fields.slug} />
+
         <hr />
         <footer>
           <Bio />
